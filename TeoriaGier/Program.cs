@@ -10,13 +10,12 @@ namespace TeoriaGier
     {
         static void Main(string[] args)
         {
-
-            string game = "Haba baba";
-
             Evaluator6 evaluator6 = new Evaluator6();
-            Console.WriteLine(evaluator6.RemoveNthUp(game, 4));
+			string game = Console.ReadLine();
 
-            Console.ReadLine();
+			Console.WriteLine(evaluator6.EvaluateMultirow(game));
+
+			Console.ReadKey();
         }
     }
 }
