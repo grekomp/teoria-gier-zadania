@@ -75,7 +75,7 @@ namespace TeoriaGier
 			return combinedResult;
 		}
 
-		public List<string> GetOptions(string game, char player)
+		List<string> GetOptions(string game, char player)
         {
             List<string> options = new List<string>();
 
@@ -89,8 +89,7 @@ namespace TeoriaGier
 
             return options;
         }
-
-        public string RemoveNthUp(string game, int n)
+        string RemoveNthUp(string game, int n)
         {
             StringBuilder newGameBuilder = new StringBuilder();
 
@@ -101,8 +100,7 @@ namespace TeoriaGier
 
             return newGameBuilder.ToString();
         }
-
-		public Number SimplestBetween(Number left, Number right)
+		Number SimplestBetween(Number left, Number right)
 		{
 			if (left == null && right == null)
 			{
