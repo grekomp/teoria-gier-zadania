@@ -10,7 +10,8 @@ namespace Zadanie_7
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Przykładowa gra: I II IIIII = 1.2.5");
+			Console.WriteLine("Zadanie 7.");
+			Console.WriteLine("Wprowadź grę np. 1.2.5 == I II IIIII");
 
 			string input = Console.ReadLine();
 
@@ -23,6 +24,7 @@ namespace Zadanie_7
 				inputRows[i] = int.Parse(inputSplit[i]);
 			}
 
+			Console.WriteLine("\nWartość gry:");
 			Console.WriteLine("*" + Evaluator7.EvaluateMultirow(inputRows));
 
 			Console.ReadKey();

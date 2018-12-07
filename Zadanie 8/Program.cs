@@ -10,6 +10,7 @@ namespace Zadanie_8
 	{
 		static void Main(string[] args)
 		{
+			Console.WriteLine("Zadanie 8.");
 			Console.WriteLine("Podaj początkowe liczby kul w urnach w dwóch liniach");
 			int a = int.Parse(Console.ReadLine());
 			int b = int.Parse(Console.ReadLine());

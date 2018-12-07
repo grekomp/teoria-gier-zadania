@@ -10,6 +10,9 @@ namespace TeoriaGier
     {
         static void Main(string[] args)
         {
+			Console.WriteLine("Zadanie 6.");
+			Console.WriteLine("Podaj grę w formacie np. wbwbb");
+
             Evaluator6 evaluator6 = new Evaluator6();
 			string game = Console.ReadLine();
 

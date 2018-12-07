@@ -10,6 +10,7 @@ namespace Zadanie_9
 	{
 		static void Main(string[] args)
 		{
+			Console.WriteLine("Zadanie 9.");
 			Console.WriteLine("Podaj współrzędne pozycji hetmana w osobnych liniach, zaczynając od 0 0");
 			int a = int.Parse(Console.ReadLine());
 			int b = int.Parse(Console.ReadLine());
